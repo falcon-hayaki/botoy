@@ -1187,7 +1187,7 @@ class Action:
             return resp_model.ResponseData
         except Exception as e:
             logger.error(e)
-            return None
+            return {}
 
     #
     async def post(
